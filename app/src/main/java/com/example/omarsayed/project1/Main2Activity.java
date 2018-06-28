@@ -5,19 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class Main2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        public void goToSecondactivity(View view)
-        {
-            Intent intent =new Intent(PackageContext )
-
-        }
-
-
+        setContentView(R.layout.activity_main2);
+    }
+    public void gotoSecondactivity(View view)
+    {
+        Intent intent
     }
 }

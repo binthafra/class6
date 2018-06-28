@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Secondactivity"
+            android:label="Relative Layout"
+            android:parentActivityName=".Main2Activity"
+            >
+            <meta-data
+                android:name="android.support:Parent_Activity"
+                android:value=".Mainactivity"
+                />
+        </activity>
     </application>
 
 </manifest>
